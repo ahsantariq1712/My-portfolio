@@ -1,0 +1,214 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root {
+  --lightGrey: #fcfeff;
+
+  --primaryBlue: #2c74da;
+
+  --bluesBlue4: #486581;
+
+  --white: #ffffff;
+
+  --bluesBlue6: #829ab1;
+
+  --lightBlue: #3b72bf;
+
+  --neiviBlue: #334e68;
+
+  --grey: #d9e2ec;
+
+  --statusRed: #eb4e4e;
+
+  --bluesBlue2: #243b53;
+
+  --bluesBlue1: #102a43;
+
+  --offWhite: #f9f9f9;
+
+  --darkGreen: #035A70;
+
+  --darkBlue: #085D73;
+
+  --lightBlue: #2AD4FF;
+
+  --norBrown: #665F5F;
+
+  --textBrown: #555555;
+
+  --primaryParrot: #57E326;
+
+  --primaryRed: #FF0000;
+
+  --secondaryRed: #f90303;
+
+  --greyGrey: #AAAAAA;
+
+  --darkBlue: #051498;
+
+  --darkBrown:  #2B2B2B;
+
+  --yellowYellow: #DC9935;
+
+  --seagreen: #034B5D;
+
+  --blueGreen: #2D7688;
+
+  --blackpure: #000000;
+
+   --whitepure: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+li,
+input,
+label,
+select,
+::placeholder,
+.btn {
+    font-family: "Inter", sans-serif;
+}
+body {
+    scroll-behavior: smooth;
+    background-color: #000000;
+}
+.portfolio_banner {
+    padding: 150px 0;
+    text-align: center;
+    background: #000000;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 55%, rgba(115, 115, 115, 1) 100%);
+    color: var(--whitepure);
+}
+.project-card {
+    transition: transform 0.3s ease;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+}
+footer {
+    background-color: var(--blackpure);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.Portfolio-header {
+    padding-top: 16px;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 55%, rgba(115, 115, 115, 1) 100%);
+}
+.portfolio-navigation ul li a {
+    color: var(--whitepure);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+.portfolio_banner .banner_heading {
+    font-weight: 700;
+    color: var(--whitepure);
+    font-family: "Inter", sans-serif;
+}
+.portfolio_banner .banner_heading  span {
+    color: var(--secondaryRed);
+}
+.Portfolio-header img {
+    max-width: 130px;
+}
+.portfolio-navigation ul {
+    display: flex;
+    gap: 28px;
+}
+.portfolio-navigation ul li a:hover {
+    color: var(--secondaryRed);
+}
+.about_details {
+    color: white;
+    padding: 20px;
+}
+.myImage img {
+    width: 94%;
+    border-radius: 40px;
+}
+.about-us {
+    margin: 100px 0px;
+}
+.aboutTabs {
+    border: 0;
+}
+.aboutTabs .myTab {
+    background-color: var(--blackpure);
+    color: var(--white);
+    border: 0;
+}
+.about_details .tab-deatils h6 {
+    color: var(--secondaryRed);
+}
+.about_details h1 {
+    font-weight: 700;
+}
+.service_heading {
+    color: var(--whitepure);
+    font-weight: 700;
+}
+.service-card {
+    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 55%, rgba(115, 115, 115, 1) 100%);
+    color: var(--whitepure);
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+.serviceCard-body i {
+    font-size: 50px;
+    font-weight: bold;
+}
+.serviceCard-body {
+    padding: 20px;
+}
+.serviceCard-body h5 {
+    margin-top: 15px;
+}
+.logo-slider img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    padding: 10px;
+    transition: 0.3s;
+}
+.project_heading,
+.contact_heading {
+    color: var(--whitepure);
+    font-weight: 700;
+}
+.contact_mail i {
+    color: var(--secondaryRed);
+}
+.contact_mail  {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.contact_mail span {
+    color: white;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.social-icons a i{
+    font-size: 24px;
+    color: var(--whitepure);
+}
+.messageBtn button {
+    background-color: var(--secondaryRed);
+    border-color: var(--secondaryRed);
+}
+.logoSlider_section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
