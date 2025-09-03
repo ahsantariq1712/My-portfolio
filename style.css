@@ -212,3 +212,23 @@ footer {
     margin-top: 120px;
     margin-bottom: 120px;
 }
+.fixed-icons {
+  position: fixed;
+  top: 80%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 9999;
+}
+
+.fixed-icons a img {
+  width: 125px;
+  height: 45px;
+  transition: transform 0.3s ease;
+}
+
+.fixed-icons a img:hover {
+  transform: scale(1.1);
+}
